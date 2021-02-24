@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+  
+
+  <div class="boxes heading">
+    <h1>Simple, traffic-based pricing</h1>
+    <div class="smallgray" id="subheading">Sign-up for our 30-day trial. No credit card required. </div>
+  </div>
+
+  <div class="container">
+
+    
+      <div class="pageviews">
+        <span id="pv-num">100K</span>
+        <span id="pv">Pageviews</span>
+      </div>
+      <div class="slider">
+      <input type="range" min="0" max="400" value="200" id="myRange">
+      </div>
+
+      <div class="cost">
+        <span id="dollars">$16.00</span>
+        <span class="smallgray">/ month</span>
+      </div>
+    
+      <div class="boxes" id="discount-section">
+        <span class="discount" id="browser">25% discount</span>
+  
+        <span class="smallgray float-right">Yearly Billing</span>
+        <span class="float-right">
+          <label class="switch">
+          <input id="check" type="checkbox">
+          <span class="slider1 round"></span>
+          </label>
+        </span>
+        <span class="smallgray float-right parent">Monthly Billing
+        <span class="discount" id="mobile">-25%</span></span>
+      </div>
+
+      <hr>    
+     
+      <div class="boxes" id="bottom-section">
+
+        <div class="boxes" id="list">
+          
+          <ul class= "smallgray">
+            <li>  Unlimited websites</li>
+            <li>  100% data ownership</li>
+            <li>  Email reports</li>
+          </ul>
+        </div>
+
+        <div id="trial-button">
+          <button type="button">Start my trial</button>
+        </div>
+      </div>
+
+  </div>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Natalie Graham</a>.
+  </div>
+
+
+
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+</html>
+
+
+
+
