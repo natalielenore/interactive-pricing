@@ -6,7 +6,7 @@ To interact with this site visit: https://interactive-pricing-three.vercel.app/
 
 To learn more about the projects specs, read below.
 
---Natalie
+- Natalie
 
 # Frontend Mentor - Interactive pricing component
 
