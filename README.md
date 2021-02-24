@@ -2,6 +2,10 @@
 
 This was my first project I did from Frontend Mentor. That being said, I learned a lot. At this stage I'm still working with pure JS (along with CSS and HTML). One of the biggest challenges for me with this project was figuring how to fill in the green line as you move the slider back and forth. There were a lot of other small things I had to figure out how to do. It took a lot of research but I learned a lot along the way in dealing with all those challenges. 
 
+To interact with this site visit: https://interactive-pricing-three.vercel.app/
+
+To learn more about the projects specs, read below.
+
 # Frontend Mentor - Interactive pricing component
 
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
